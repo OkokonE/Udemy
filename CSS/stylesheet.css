@@ -101,3 +101,20 @@ header{
     justify-content: space-between;
     margin-top: 10px;
 }
+/* Sub-section */
+.subsection{
+    border: 1px solid black;
+    margin: 0 40px;
+    padding: 30px 20px;
+
+}
+.mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.mini div{
+   display: flex;
+   flex-direction: column;
+}
